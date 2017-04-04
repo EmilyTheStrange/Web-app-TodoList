@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>TODO List</h1>
+    <!-- Implement buttons using getElementById and addEventListener
+    <button id="displayTodosButton">Display TODOs</button>
+    <button id="toggleAllButton">Toggle all</button>
+    -->
+    <div>
+      <button onclick="handlers.toggleAll()">Toggle all</button>
+    </div>
+    
+    <!-- Buttons with inputs-->
+    <div>
+      <button onclick="handlers.addTodo()">Add</button>
+      <input id="addTodoInputText" type="text">
+    </div>
+    
+    <div>
+      <button onclick="handlers.changeTodo()">Change</button>
+      <input id="changeTodoPosition" type="number">
+      <input id="changeTodoInput" type="text">
+    </div>
+    
+    
+    
+    <div>
+      <button onclick="handlers.toggleCompleted()">Toggle completed</button>
+      <input id="toggleCompletedPosition" type="number">
+    </div>
+    
+    <ul>
+    </ul>
+    
+    <script src="script.js"></script>
+
+  </body>
+</html>
+

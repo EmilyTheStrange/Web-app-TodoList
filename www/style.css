@@ -1,0 +1,13 @@
+/* Styles go here */
+
+h1 {color: #BADEE4;}
+body {background-color: #5DBCD2;}
+button {
+  background-color: #F0F4EF;
+  color: #022B5F;
+  border: 3px solid white;
+  margin: 3px;
+  padding: 10px;
+  border-radius: 50%;
+  
+  }
