@@ -130,10 +130,10 @@ var view = {
           //display todo with completion
           var todoTextWithCompl = "";
           if (todo.completed === true){
-              todoTextWithCompl = "(X)" + todo.todoText;
+              todoTextWithCompl = " [X] " + todo.todoText;
           }
           else {
-              todoTextWithCompl = "( )" + todo.todoText;   
+              todoTextWithCompl = " [ ] " + todo.todoText;   
           }
           todosLi.id = position;
           todosLi.textContent = todoTextWithCompl;
