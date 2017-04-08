@@ -1,11 +1,12 @@
 /* Styles go here */
 
  body { margin-left: 25%;
-        margin-right: 25%;
-        margin-bottom: 10%;
-        min-height: 100%;
-        background-image: url(images/background.jpeg);
-        background-size: 100%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    min-height: 100%;
+    background-image: url(images/background.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     }
 h1 {color: skyblue;
     display: flex;
